@@ -12,7 +12,7 @@ function App() {
   const [product3, setProduct3] = useState(300);
 
   return (
-    <userContext.Provider value={"สมชาย"}>
+    <userContext.Provider value={สมชาย}>
       <div className="App">
         <Header />
         <Content />
